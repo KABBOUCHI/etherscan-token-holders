@@ -1,0 +1,21 @@
+{
+  "name": "etherscan-token-holders",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "start": "tsx src/app.ts"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "html-table-to-json": "^1.0.0",
+    "jsdom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^16.2.14",
+    "nitropack": "^0.4.8",
+    "tsx": "^3.4.3"
+  }
+}
